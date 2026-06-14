@@ -21,4 +21,5 @@ public class DemoController {
     public String adminApi() {
         return "Hello ADMIN you are premium user";
     }
+
 }

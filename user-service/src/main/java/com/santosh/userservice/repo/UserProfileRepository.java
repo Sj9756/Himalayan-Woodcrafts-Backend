@@ -8,5 +8,5 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 @Repository
 public interface  UserProfileRepository extends JpaRepository<UserProfile,Integer>  {
-
+    Optional<UserProfile> findByKeycloakId(String keycloakId);
 }
